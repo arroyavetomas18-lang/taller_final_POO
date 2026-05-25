@@ -128,6 +128,7 @@ class PantallaInicio:
                      bg="#2a3750", fg="#8892a4").pack(side="left", padx=8)
 
 #tabla top 5
+        #y la ultima columna que es donde se van a guardar todos los puntajes de los jugadores
         tk.Label(col_der, text="TOP 5", font=("Consolas", 10, "bold"),
                  bg="#232e44", fg="#d4a017").pack(pady=(0, 10))
 
