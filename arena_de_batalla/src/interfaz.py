@@ -419,6 +419,7 @@ class PantallaJuego:
             return
         self.dibujar_botones()
 
+    #hace que el jugador reciba una pocion cada 2 enemigos derrotados, tambien va sumando puntos y carga el siguiente
     def on_enemigo_muerto(self):
         recompensa = self.enemigo.recompensa
         self.puntos += recompensa
