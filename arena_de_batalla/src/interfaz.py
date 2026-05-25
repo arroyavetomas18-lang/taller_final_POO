@@ -297,7 +297,8 @@ class PantallaJuego:
                               bg="#161e2e", troughcolor="#161e2e")
         scroll.pack(side="right", fill="y")
         self.log["yscrollcommand"] = scroll.set
-
+        
+#se crea cargar_enemigo, para que se cargue el siguiente enemigo, le va subiendo el nivel y muestra la info
     def cargar_enemigo(self):
         if self.numero_enemigo >= len(self.torre):
             guardar_puntaje(self.jugador.nombre, self.puntos)
