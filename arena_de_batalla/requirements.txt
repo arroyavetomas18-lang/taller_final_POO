@@ -1,0 +1,3 @@
+# el proyecto usa tkinker
+# tkinter viene incluido con python 3 entonces no se tiene que instalar nada
+# y python, osea la version tiene que ser mayor o igual a la 3.8
