@@ -67,6 +67,7 @@ class PantallaInicio:
         col_der.pack(side="left", fill="y", padx=(8, 0))
 
 #tabla de nombre y clase
+#se crea la columna donde se va a poner el nombre y la clase del jugador
         tk.Label(col_izq, text="NOMBRE DEL HEROE",
                  font=("Consolas", 9, "bold"), bg="#232e44", fg="#8892a4").pack(anchor="w")
 
