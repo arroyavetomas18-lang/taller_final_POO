@@ -15,7 +15,7 @@ from juego import (
     guardar_puntaje,
     ARCHIVO_PUNTAJES,
 )
-
+#se agrega la imagen de fondo
 RUTA_FONDO = os.path.join(os.path.dirname(__file__), "fondo.png")
 
 def cargar_puntajes():
