@@ -149,7 +149,7 @@ class PantallaInicio:
                 tk.Label(fila, text=f"{p['puntos']} pts", font=("Consolas", 9, "bold"),
                          bg="#2a3750", fg="#d4a017").pack(side="right", padx=6)
                 i += 1
-
+#se crea la clase que escogio el jugador, el nombre y le asigna la pocion inicial
     def iniciar(self):
         nombre = self.campo_nombre.get().strip()
         if nombre == "":
