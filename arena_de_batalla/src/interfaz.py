@@ -172,7 +172,7 @@ class PantallaInicio:
         self.frame.destroy()
 
 #pantalla de juego
-
+#es toda la pantalla en general, es donde se crea la lista de enemigos, la cuenta de ellos,puntaje, turnos, lista de botones, etc
 class PantallaJuego:
     def __init__(self, ventana, jugador, al_terminar):
         self.ventana = ventana
