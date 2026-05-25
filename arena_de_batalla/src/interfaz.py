@@ -164,10 +164,10 @@ class PantallaInicio:
         pocion_inicial = Item("pocion", "curacion", 70)
         jugador.inventario.agregar(pocion_inicial)
         self.al_iniciar(jugador)
-
+#muestra la pantalla en ventana
     def mostrar(self):
         self.frame.pack(fill="both", expand=True)
-
+#se elimina la pantalla de la ventana
     def destruir(self):
         self.frame.destroy()
 
