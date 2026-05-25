@@ -435,6 +435,7 @@ class PantallaJuego:
         self.numero_enemigo += 1
         self.ventana.after(900, self.cargar_enemigo)
 
+    #actualiza la pantalla para que vaya cambiando la vida las estadiscticas y las barras de vida
     def actualizar_pantalla(self):
         j = self.jugador
         e = self.enemigo
