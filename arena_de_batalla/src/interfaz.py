@@ -316,6 +316,7 @@ class PantallaJuego:
             self.escribir_log(f"(estadisticas +{self.numero_enemigo * 3}%)", "#8892a4")
         self.dibujar_botones()
 
+    #los botones que se colocan segun la clase q escogio el jugador
     def dibujar_botones(self):
         for boton in self.botones:
             boton.destroy()
