@@ -102,6 +102,7 @@ class PantallaInicio:
                   relief="flat", bd=0, padx=24, pady=10).pack(fill="x", pady=(20, 0))
 
 #tabla de lista de enemigos
+        #la tabla donde va a estar toda la lista con los enemigos de la torre
         tk.Label(col_centro, text="ENEMIGOS DE LA TORRE",
                  font=("Consolas", 9, "bold"), bg="#232e44", fg="#d4a017").pack(pady=(16, 6))
 
